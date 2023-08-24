@@ -3,9 +3,9 @@ const bmi_calc = (height1, weight1, height2, weight2)=>{
     let bmi2 = height2 / (weight2**2);
 
     if (bmi1 > bmi2){
-        return `BMI orang 1 ${bmi1} lebih tinggi dari Orang 2 ${bmi2}`
+        return `BMI orang 1 (${bmi1.toFixed(2)}) lebih tinggi dari Orang 2 (${bmi2.toFixed(2)})`
     } else{
-        return `BMI orang 2 ${bmi2} lebih tinggi dari Orang 2 ${bmi1}`
+        return `BMI orang 2 (${bmi2.toFixed(2)}) lebih tinggi dari Orang 2 (${bmi1.toFixed(2)})`
     }
 };
 
