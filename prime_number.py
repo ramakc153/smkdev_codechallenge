@@ -5,13 +5,10 @@ is_prime = 0
 total_prime_number =0
 start = time.time()
 for current_number in range(lower, upper+1):
-    # print('this is x ', x)
     for divider in range(2,int(current_number/2)+1):
-        # print('this is  y ', y)
         if current_number % divider == 0 :
             is_prime+= 1
             break
-        # print('ini is prime', is_prime)
     if is_prime == 0:
         print(str(current_number) + 'is rill prime')
         total_prime_number += 1
