@@ -22,3 +22,5 @@ print('total prime number in interval are : ', len(prime_numbers))   #print how 
 end = time.time()
 
 print("execution time : ", end-start)
+
+# note : the reason why i'm just use the half of current number for the division is for performance efficiency. already mathematically proved.
