@@ -17,10 +17,10 @@ for current_number in range(lower, upper+1):  #loop from lower interval to upper
     #     print(str(current_number) + "you're not prime")  #debug purpose
     isNot_prime = 0  # set flag to 0 again for the next number that we want to check
 
-# print(f"list of prime number : [{', '.join(map(str,prime_numbers))}]")  #print list of prime number
-# print('total prime number in interval are : ', len(prime_numbers))   #print how many prime number(s) in interval
+print(f"list of prime number : [{', '.join(map(str,prime_numbers))}]")  #print list of prime number
+print('total prime number in interval are : ', len(prime_numbers))   #print how many prime number(s) in interval
 end = time.time()
 
-# print("execution time : ", end-start)
+print("execution time : ", end-start)
 
 # note : the reason why i'm just use the half of current number for the division is for performance efficiency. already mathematically proved.
