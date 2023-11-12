@@ -1,7 +1,7 @@
 import time
 number = input("input the number : ")  #Input number to check
 start = time.time()  #variable for timeout 
-while int(number) != 1:  #create while loop while the result number not equal to 0
+while int(number) != 1:  #create while loop while the result number not equal to 1
     temp_sum = 0  #temp variable to assign to current number
     # This logic will triger if code run more than 5 seconds
     if time.time() - start >=5:
